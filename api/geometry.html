@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>API Geometry Classes | RAMP4 Documentation</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="documentation site">
+    
+    <link rel="preload" href="/ramp4-pcar4/assets/css/0.styles.bb23d5bc.css" as="style"><link rel="preload" href="/ramp4-pcar4/assets/js/app.314d26ef.js" as="script"><link rel="preload" href="/ramp4-pcar4/assets/js/2.b04885b9.js" as="script"><link rel="preload" href="/ramp4-pcar4/assets/js/10.6b8f81c0.js" as="script"><link rel="prefetch" href="/ramp4-pcar4/assets/js/11.f5b75e68.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/12.2dda8edd.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/13.b9eb4b07.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/14.d1ab6858.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/15.59437e4c.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/16.da672fd7.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/17.42a4f096.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/18.faee5f3f.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/19.dc8b0df1.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/20.5daa5032.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/21.de00e9f8.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/22.41269086.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/23.7fa953e0.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/24.1b96e29a.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/3.8556ac60.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/4.e2914942.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/5.7b0bd689.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/6.8da05ab5.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/7.f9ea3b31.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/8.cfeba89e.js"><link rel="prefetch" href="/ramp4-pcar4/assets/js/9.9dd7d451.js">
+    <link rel="stylesheet" href="/ramp4-pcar4/assets/css/0.styles.bb23d5bc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/ramp4-pcar4/" class="home-link router-link-active"><!----> <span class="site-name">RAMP4 Documentation</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="API" class="dropdown-title"><span class="title">API</span> <span class="arrow down"></span></button> <button type="button" aria-label="API" class="mobile-dropdown-title"><span class="title">API</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/api/events.html" class="nav-link">
+  Events
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/api/geometry.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Geometry
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/api/migration.html" class="nav-link">
+  Migration
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Application" class="dropdown-title"><span class="title">Application</span> <span class="arrow down"></span></button> <button type="button" aria-label="Application" class="mobile-dropdown-title"><span class="title">Application</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/appbar.html" class="nav-link">
+  Appbar
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/core-classes.html" class="nav-link">
+  Core Classes
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/datatable.html" class="nav-link">
+  Datatable
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/defaults.html" class="nav-link">
+  Defaults
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/details.html" class="nav-link">
+  Details
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/fixtures.html" class="nav-link">
+  Fixtures
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/focus-list.html" class="nav-link">
+  Focus List
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/geosearch.html" class="nav-link">
+  Geosearch
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/panels.html" class="nav-link">
+  Panels
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/store.html" class="nav-link">
+  Store
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/tooltips.html" class="nav-link">
+  Tooltips
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Configuration" class="dropdown-title"><span class="title">Configuration</span> <span class="arrow down"></span></button> <button type="button" aria-label="Configuration" class="mobile-dropdown-title"><span class="title">Configuration</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/configuration/config-language.html" class="nav-link">
+  Config Language
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/configuration/migration.html" class="nav-link">
+  Migration
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="GeoAPI" class="dropdown-title"><span class="title">GeoAPI</span> <span class="arrow down"></span></button> <button type="button" aria-label="GeoAPI" class="mobile-dropdown-title"><span class="title">GeoAPI</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/geoapi/layers.html" class="nav-link">
+  Layers
+</a></li></ul></div></div><div class="nav-item"><a href="/ramp4-pcar4/code/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Annotated Source Code
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/ramp4-pcar4/ramp4-pcar4" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="API" class="dropdown-title"><span class="title">API</span> <span class="arrow down"></span></button> <button type="button" aria-label="API" class="mobile-dropdown-title"><span class="title">API</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/api/events.html" class="nav-link">
+  Events
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/api/geometry.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Geometry
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/api/migration.html" class="nav-link">
+  Migration
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Application" class="dropdown-title"><span class="title">Application</span> <span class="arrow down"></span></button> <button type="button" aria-label="Application" class="mobile-dropdown-title"><span class="title">Application</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/appbar.html" class="nav-link">
+  Appbar
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/core-classes.html" class="nav-link">
+  Core Classes
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/datatable.html" class="nav-link">
+  Datatable
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/defaults.html" class="nav-link">
+  Defaults
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/details.html" class="nav-link">
+  Details
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/fixtures.html" class="nav-link">
+  Fixtures
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/focus-list.html" class="nav-link">
+  Focus List
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/geosearch.html" class="nav-link">
+  Geosearch
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/panels.html" class="nav-link">
+  Panels
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/store.html" class="nav-link">
+  Store
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/app/tooltips.html" class="nav-link">
+  Tooltips
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Configuration" class="dropdown-title"><span class="title">Configuration</span> <span class="arrow down"></span></button> <button type="button" aria-label="Configuration" class="mobile-dropdown-title"><span class="title">Configuration</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/configuration/config-language.html" class="nav-link">
+  Config Language
+</a></li><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/configuration/migration.html" class="nav-link">
+  Migration
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="GeoAPI" class="dropdown-title"><span class="title">GeoAPI</span> <span class="arrow down"></span></button> <button type="button" aria-label="GeoAPI" class="mobile-dropdown-title"><span class="title">GeoAPI</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ramp4-pcar4/geoapi/layers.html" class="nav-link">
+  Layers
+</a></li></ul></div></div><div class="nav-item"><a href="/ramp4-pcar4/code/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Annotated Source Code
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/ramp4-pcar4/ramp4-pcar4" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>API</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/ramp4-pcar4/api/events.html" class="sidebar-link">Events API</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/ramp4-pcar4/api/events.html#overview" class="sidebar-link">Overview</a></li><li class="sidebar-sub-header"><a href="/ramp4-pcar4/api/events.html#primary-event-methods" class="sidebar-link">Primary Event Methods</a></li><li class="sidebar-sub-header"><a href="/ramp4-pcar4/api/events.html#secondary-event-methods" class="sidebar-link">Secondary Event Methods</a></li></ul></li><li><a href="/ramp4-pcar4/api/geometry.html" aria-current="page" class="active sidebar-link">API Geometry Classes</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/ramp4-pcar4/api/geometry.html#spatial-reference" class="sidebar-link">Spatial Reference</a></li><li class="sidebar-sub-header"><a href="/ramp4-pcar4/api/geometry.html#point" class="sidebar-link">Point</a></li><li class="sidebar-sub-header"><a href="/ramp4-pcar4/api/geometry.html#multipoint" class="sidebar-link">MultiPoint</a></li><li class="sidebar-sub-header"><a href="/ramp4-pcar4/api/geometry.html#line-string" class="sidebar-link">Line String</a></li><li class="sidebar-sub-header"><a href="/ramp4-pcar4/api/geometry.html#linear-ring" class="sidebar-link">Linear Ring</a></li><li class="sidebar-sub-header"><a href="/ramp4-pcar4/api/geometry.html#multi-line-string" class="sidebar-link">Multi Line String</a></li><li class="sidebar-sub-header"><a href="/ramp4-pcar4/api/geometry.html#polygon" class="sidebar-link">Polygon</a></li><li class="sidebar-sub-header"><a href="/ramp4-pcar4/api/geometry.html#multipolygon" class="sidebar-link">MultiPolygon</a></li></ul></li><li><a href="/ramp4-pcar4/api/migration.html" class="sidebar-link">API Migration Guide</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/ramp4-pcar4/api/migration.html#geom" class="sidebar-link">GEOM</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="api-geometry-classes"><a href="#api-geometry-classes" class="header-anchor">#</a> API Geometry Classes</h1> <p>In general, the constructors are very flexible in accepting the varying and mixed geometry formats. The geometry input is parsed recursively, so in almost all cases if it makes sense logically, the constructor will parse it.</p> <h2 id="spatial-reference"><a href="#spatial-reference" class="header-anchor">#</a> Spatial Reference</h2> <p>This is fairly in-line with ESRI's format. It supports WKID and WKT, and optional latestWKID parameters.</p> <div class="language- extra-class"><pre class="language-text"><code>const lambertSR = new RAMP.GEO.SpatialReference(3978);
+const fancySRwithLatest = new RAMP.GEO.SpatialReference(102100, 3857);
+const azimuthSR = new RAMP.GEO.SpatialReference('PROJCS[&quot;Sphere_ARC_INFO_Azimuthal_Equidistant&quot;,GEOGCS[&quot;GCS_Sphere_ARC_INFO&quot;,DATUM[&quot;D_Sphere_ARC_INFO&quot;,SPHEROID[&quot;Sphere_ARC_INFO&quot;,6370997.0,0.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Azimuthal_Equidistant&quot;],PARAMETER[&quot;False_Easting&quot;,0.0],PARAMETER[&quot;False_Northing&quot;,0.0],PARAMETER[&quot;Central_Meridian&quot;,-90.0],PARAMETER[&quot;Latitude_Of_Origin&quot;,90.0],UNIT[&quot;Meter&quot;,1.0]]');
+const iAmFalse = lambertSR.isEqual(aziumthSR);
+</code></pre></div><h2 id="point"><a href="#point" class="header-anchor">#</a> Point</h2> <p>Various co-ordinate inputs of the constructors.</p> <div class="language- extra-class"><pre class="language-text"><code>const pt1 = new RAMP.GEO.Point('myid', [-76.77, 44.42]);
+const pt2 = new RAMP.GEO.Point('myid', {x: -76.77, y: 44.42});
+const pt3 = new RAMP.GEO.Point('myid', pt2);
+const pt4 = new RAMP.GEO.Point('myid', [-76.77, '44.42']);
+const pt5 = new RAMP.GEO.Point('myid', {x: '-76.77', y: 44.42});
+</code></pre></div><p>Various methods</p> <div class="language- extra-class"><pre class="language-text"><code>const pt = new RAMP.GEO.Point('myid', [-76.77, 44.42]);
+pt.type; // 'Point'
+pt.id; // 'myid'
+pt.sr; // { wkid: 4326 }
+pt.x; // -76.77
+pt.y; // 44.42
+pt.toArray(); // [-76.77, 44.42]
+pt.x = -77.13; // point has updated.
+</code></pre></div><h3 id="spatial-references-on-geometry"><a href="#spatial-references-on-geometry" class="header-anchor">#</a> Spatial References on Geometry</h3> <p>The optional constructor parameter for spatial references is available on all geometry. We will use <code>Point</code> to illustrate.</p> <div class="language- extra-class"><pre class="language-text"><code>const lambertSR = new RAMP.GEO.SpatialReference(3978);
+const lambertPt1 = new RAMP.GEO.Point('myid', [1461066.3, -303263.6], lambertSR);
+const lambertPt2 = new RAMP.GEO.Point('myid', [1461066.3, -303263.6], 3978);
+const lambertPt3 = new RAMP.GEO.Point('myid', lambertPt); // Note no explicit spatial reference passed in. Single RAMP geometry inputs provide their SR to the new instance
+const badLambertPt = new RAMP.GEO.Point('myid', [1461066.3, -303263.6]); // will have lambert values and Lat-Long spatial reference
+const wktPt = new RAMP.GEO.Point('myid', [123, 456], 'wkt string value');
+</code></pre></div><h3 id="raw-input-for-geometry"><a href="#raw-input-for-geometry" class="header-anchor">#</a> Raw Input for Geometry</h3> <p>If the co-ordinate input is a well formed array of numbers (including that all polygon rings are closed), we can leverage the optional <code>raw</code> flag on the constructor. This is an efficiency flag, indicating the data can be consumed as is, there is no need to validate and parse the values. This option exists for all geometry types except <code>Extent</code>. If in doubt of the array format, it will always match the output of the <code>.toArray()</code> method of the particular geometry type.</p> <p>While our <code>Point</code> example may seem trivial, performance gains are to be had when dealing with geometries having high vertex counts.</p> <div class="language- extra-class"><pre class="language-text"><code>const lambertPt = new RAMP.GEO.Point('myid', [1461066.3, -303263.6], 3978, true);
+</code></pre></div><h2 id="multipoint"><a href="#multipoint" class="header-anchor">#</a> MultiPoint</h2> <p>Various co-ordinate inputs of the constructors.</p> <div class="language- extra-class"><pre class="language-text"><code>const mptFromCoords = new RAMP.GEO.MultiPoint('myid', [[-76.77, 44.42], [-68.69, 51.39]]);
+const mptFromMultiPt = new RAMP.GEO.MultiPoint('myid', mptFromCoords);
+const pt = new RAMP.GEO.Point('myid', [-76.77, 44.42]);
+const mptMixedPoints = new RAMP.GEO.MultiPoint('myid', [pt, [-68.69, 51.39], {x: &quot;-97.86&quot;, y: 55.74}]);
+</code></pre></div><p>Various methods</p> <div class="language- extra-class"><pre class="language-text"><code>const mpt = new RAMP.GEO.MultiPoint('myid', [[-76.77, 44.42], [-68.69, 51.39]]);
+mpt.type;                // 'MultiPoint'
+mpt.id;                  // 'myid'
+mpt.sr;                  // { wkid: 4326 }
+mpt.length;              // 2
+mpt.pointArray;          // [Point, Point] where each Point corresponds to the co-ords and is typed as RAMP API Point. These Points are not bound to the MultiPoint.
+mpt.toArray();           // [[-76.77, 44.42], [-68.69, 51.39]]
+
+const pt = mpt.getAt(0); // Point corresponding to -76.77, 44.42. This object is not bound to the MultiPoint
+pt.x = -78.22;           // pt has updated, mpt has not
+mpt.updateAt(pt, 0);     // multipoint innards are now [[-78.22, 44.42], [-68.69, 51.39]]
+</code></pre></div><h2 id="line-string"><a href="#line-string" class="header-anchor">#</a> Line String</h2> <p>This has effectively the same interface as <code>MultiPoint</code>, so examples will be sparse. <code>LineString</code> enforces a minimum of two vertices.</p> <div class="language- extra-class"><pre class="language-text"><code>const lineFromCoords = new RAMP.GEO.LineString('myid', [[-76.77, 44.42], [-68.69, 51.39]]);
+const lineFromLine = new RAMP.GEO.LineString('myid', lineFromCoords); // also accepts MultiPoint
+lineFromCoords.type; // 'LineString'
+</code></pre></div><h2 id="linear-ring"><a href="#linear-ring" class="header-anchor">#</a> Linear Ring</h2> <p>This also has effectively the same interface as <code>MultiPoint</code>. <code>LinearRing</code> enforces that the last vertex must be identical to the first vertex. However, being both smart and kind, the constructor will inject a closing vertex if it is missing from the source. After closure, <code>LinearRing</code> expects a minimum of four vertices. For optimal drawing, the vertices should be in a clockwise order.</p> <div class="language- extra-class"><pre class="language-text"><code>const ringIncomplete = new RAMP.GEO.LinearRing('myid', [[-76.77, 44.42], [-97.86, 55.74], [-68.69, 51.39]]);
+ringIncomplete.toArray(); // [[-76.77, 44.42], [-97.86, 55.74], [-68.69, 51.39], [-76.77, 44.42]]
+ringIncomplete.type;      // 'LinearRing'
+</code></pre></div><h2 id="multi-line-string"><a href="#multi-line-string" class="header-anchor">#</a> Multi Line String</h2> <p>Various co-ordinate inputs of the constructors.</p> <div class="language- extra-class"><pre class="language-text"><code>const mlsFromCoords = new RAMP.GEO.MultiLineString('myid', [[[-76.77, 44.42], [-80.95, 49.96], [-68.69, 51.39]], [[-97.86, 55.74], [-82.15, 49.34]]]);
+const mlsFromMultiLine = new RAMP.GEO.MultiLineString('myid', mlsFromCoords); // also accepts LineString, MultiPoint
+const line = new RAMP.GEO.LineString('myid', [[-97.86, 55.74], [-82.15, 49.34]]);
+const point = new RAMP.GEO.Point('myid', [-68.69, 51.39]);
+const mlsFromMixedLines = new RAMP.GEO.MultiLineString('myid', [[[-76.77, &quot;44.42&quot;], {x: &quot;-80.95&quot;, y: 49.96}, point], line]);
+</code></pre></div><p>Various methods</p> <div class="language- extra-class"><pre class="language-text"><code>const mls = new RAMP.GEO.MultiLineString('myid', [[[-76.77, 44.42], [-80.95, 49.96], [-68.69, 51.39]], [[-97.86, 55.74], [-82.15, 49.34]]]);
+mls.type;                // 'MultiLineString'
+mls.id;                  // 'myid'
+mls.sr;                  // { wkid: 4326 }
+mls.length;              // 2
+mls.lineArray;           // [LineString, LineString] where each LineString corresponds to the line co-ords and is typed as RAMP API LineString. These LineStrings are not bound to the MultiLineString.
+mls.toArray();           // [[[-76.77, 44.42], [-80.95, 49.96], [-68.69, 51.39]], [[-97.86, 55.74], [-82.15, 49.34]]]
+
+const ln = mls.getAt(1); // Line corresponding to [-97.86, 55.74], [-82.15, 49.34]. This object is not bound to the MultiLineString
+const pt = new RAMP.GEO.Point('pt', [-99, 55]);
+ln.updateAt(pt, 0);
+mls.updateAt(ln, 1);     // multilinestring innards are now [[[-76.77, 44.42], [-80.95, 49.96], [-68.69, 51.39]], [[-99, 55], [-82.15, 49.34]]]
+</code></pre></div><h2 id="polygon"><a href="#polygon" class="header-anchor">#</a> Polygon</h2> <p>Various co-ordinate inputs of the constructors.</p> <div class="language- extra-class"><pre class="language-text"><code>const polyFromCoords = new RAMP.GEO.Polygon('myid', [[[-76.77, 44.42], [-80.95, 49.96], [-68.69, 51.39], [-76.77, 44.42]], [[-97.86, 55.74], [-82.15, 49.34], [-116.95, 51.30], [-97.86, 55.74]]]);
+const polyFromPoly = new RAMP.GEO.Polygon('myid', polyFromCoords); // also accepts MultiLineString, LinearRing, LineString, MultiPoint
+const line = new RAMP.GEO.MultiPoint('myid', [[-97.86, 55.74], [-82.15, 49.34], [-76.77, 44.42]]);
+const point = new RAMP.GEO.Point('myid', [-68.69, 51.39]);
+const polyFromMixedUnclosedRings = new RAMP.GEO.Polygon('myid', [[[-116.95, 51.30], point, {x: &quot;-80.95&quot;, y: 49.96}], line]);
+</code></pre></div><p>Various methods</p> <div class="language- extra-class"><pre class="language-text"><code>const poly = new RAMP.GEO.Polygon('myid', [[[-76.77, 44.42], [-80.95, 49.96], [-68.69, 51.39]], [[-97.86, 55.74], [-82.15, 49.34], [-116.95, 51.30]]]);
+poly.type;                // 'Polygon'
+poly.id;                  // 'myid'
+poly.sr;                  // { wkid: 4326 }
+poly.length;              // 2
+poly.ringArray;           // [LinearRing, LinearRing] where each LinearRing corresponds to the ring co-ords (including closing vertex) and is typed as RAMP API LinearRing. These LinearRings are not bound to the Polygon.
+poly.toArray();           // [[[-76.77, 44.42], [-80.95, 49.96], [-68.69, 51.39], [-76.77, 44.42]], [[-97.86, 55.74], [-82.15, 49.34], [-116.95, 51.30], [-97.86, 55.74]]]
+
+const lr = new RAMP.GEO.LinearRing('lr', [[-97.86, 55.74], [-88, 44], [-116.95, 51.30]]);
+poly.addLinearRings([lr]); // new ring is added
+</code></pre></div><p>odds are more methods will be added to Polygon, including the <code>getAt()</code> and <code>updateAt()</code> that are present on other geometries.</p> <h2 id="multipolygon"><a href="#multipolygon" class="header-anchor">#</a> MultiPolygon</h2> <p>Various co-ordinate inputs of the constructors.</p> <div class="language- extra-class"><pre class="language-text"><code>const mpyFromCoords = new RAMP.GEO.MultiPolygon('myid', [[[[-76.77, 44.42], [-80.95, 49.96], [-68.69, 51.39], [-76.77, 44.42]]], [[[-97.86, 55.74], [-82.15, 49.34], [-116.95, 51.30], [-97.86, 55.74]]]]);
+const mpyFromMPoly = new RAMP.GEO.MultiPolygon('myid', mpyFromCoords); // also accepts Polygon, MultiLineString, LinearRing, LineString, MultiPoint
+// the examples are getting large, so omitted, but rest assured the constructor will accept an array of mixed formats that equate to Polygon-esque structures
+</code></pre></div><p>Various methods</p> <div class="language- extra-class"><pre class="language-text"><code>const mpy = new RAMP.GEO.MultiPolygon('myid', [[[[-76.77, 44.42], [-80.95, 49.96], [-68.69, 51.39]]], [[[-97.86, 55.74], [-82.15, 49.34], [-116.95, 51.30]]]]);
+mpy.type;                // 'MultiPolygon'
+mpy.id;                  // 'myid'
+mpy.sr;                  // { wkid: 4326 }
+mpy.length;              // 2
+mpy.polygonArray;        // [Polygon, Polygon] where each Polygon corresponds to the polygon co-ords and is typed as RAMP API Polygon. These Polygons are not bound to the MultiPolygon.
+mpy.toArray();           // [[[[-76.77, 44.42], [-80.95, 49.96], [-68.69, 51.39], [-76.77, 44.42]]], [[[-97.86, 55.74], [-82.15, 49.34], [-116.95, 51.30], [-97.86, 55.74]]]]
+
+const poly = new RAMP.GEO.Polygon('p', [[[-97.86, 55.74], [-88, 44], [-116.95, 51.30]]]);
+mpy.addPolygon(poly); // new polygon is added
+</code></pre></div><p>odds are more methods will be added to MultiPolygon, including the <code>getAt()</code> and <code>updateAt()</code> that are present on other geometries.</p> <p>more to be added...</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/ramp4-pcar4/api/events.html" class="prev">
+        Events API
+      </a></span> <span class="next"><a href="/ramp4-pcar4/api/migration.html">
+        API Migration Guide
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/ramp4-pcar4/assets/js/app.314d26ef.js" defer></script><script src="/ramp4-pcar4/assets/js/2.b04885b9.js" defer></script><script src="/ramp4-pcar4/assets/js/10.6b8f81c0.js" defer></script>
+  </body>
+</html>

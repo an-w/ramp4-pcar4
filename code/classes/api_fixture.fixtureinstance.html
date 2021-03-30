@@ -1,0 +1,647 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>FixtureInstance | ramp-core</title>
+	<meta name="description" content="Documentation for ramp-core">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">ramp-core</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">ramp-core</a>
+				</li>
+				<li>
+					<a href="../modules/api_fixture.html">api/fixture</a>
+				</li>
+				<li>
+					<a href="api_fixture.fixtureinstance.html">FixtureInstance</a>
+				</li>
+			</ul>
+			<h1>Class FixtureInstance</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>A base class for Fixture subclasses. It provides some utility functions to Fixtures and also gives access to <code>$iApi</code> and <code>$vApp</code> globals.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>export</dt>
+						<dd></dd>
+						<dt>implements</dt>
+						<dd><p>{FixtureBase}</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="api_common.apiscope.html" class="tsd-signature-type" data-tsd-kind="Class">APIScope</a>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">FixtureInstance</span>
+								<ul class="tsd-hierarchy">
+									<li>
+										<a href="fixtures_appbar_api_appbar.appbarapi.html" class="tsd-signature-type" data-tsd-kind="Class">AppbarAPI</a>
+									</li>
+									<li>
+										<a href="fixtures_basemap_api_basemap.basemapapi.html" class="tsd-signature-type" data-tsd-kind="Class">BasemapAPI</a>
+									</li>
+									<li>
+										<a href="fixtures_crosshairs.default.html" class="tsd-signature-type" data-tsd-kind="Class">default</a>
+									</li>
+									<li>
+										<a href="fixtures_details_api_details.detailsapi.html" class="tsd-signature-type" data-tsd-kind="Class">DetailsAPI</a>
+									</li>
+									<li>
+										<a href="fixtures_gazebo.default.html" class="tsd-signature-type" data-tsd-kind="Class">default</a>
+									</li>
+									<li>
+										<a href="fixtures_geosearch_api_geosearch.geosearchapi.html" class="tsd-signature-type" data-tsd-kind="Class">GeosearchAPI</a>
+									</li>
+									<li>
+										<a href="fixtures_grid_api_grid.gridapi.html" class="tsd-signature-type" data-tsd-kind="Class">GridAPI</a>
+									</li>
+									<li>
+										<a href="fixtures_help_api_help.helpapi.html" class="tsd-signature-type" data-tsd-kind="Class">HelpAPI</a>
+									</li>
+									<li>
+										<a href="fixtures_legend_api_legend.legendapi.html" class="tsd-signature-type" data-tsd-kind="Class">LegendAPI</a>
+									</li>
+									<li>
+										<a href="fixtures_mapnav_api_mapnav.mapnavapi.html" class="tsd-signature-type" data-tsd-kind="Class">MapnavAPI</a>
+									</li>
+									<li>
+										<a href="fixtures_metadata_api_metadata.metadataapi.html" class="tsd-signature-type" data-tsd-kind="Class">MetadataAPI</a>
+									</li>
+									<li>
+										<a href="fixtures_northarrow_api_northarrow.northarrowapi.html" class="tsd-signature-type" data-tsd-kind="Class">NortharrowAPI</a>
+									</li>
+									<li>
+										<a href="fixtures_overviewmap_api_overviewmap.overviewmapapi.html" class="tsd-signature-type" data-tsd-kind="Class">OverviewmapAPI</a>
+									</li>
+									<li>
+										<a href="fixtures_settings_api_settings.settingsapi.html" class="tsd-signature-type" data-tsd-kind="Class">SettingsAPI</a>
+									</li>
+									<li>
+										<a href="fixtures_snowman.default.html" class="tsd-signature-type" data-tsd-kind="Class">default</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html" class="tsd-signature-type" data-tsd-kind="Interface">FixtureBase</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="api_fixture.fixtureinstance.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="api_fixture.fixtureinstance.html#_iapi" class="tsd-kind-icon">$i<wbr>Api</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="api_fixture.fixtureinstance.html#id" class="tsd-kind-icon">id</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="api_fixture.fixtureinstance.html#_vapp" class="tsd-kind-icon">$v<wbr>App</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="api_fixture.fixtureinstance.html#config" class="tsd-kind-icon">config</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="api_fixture.fixtureinstance.html#added" class="tsd-kind-icon">added</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="api_fixture.fixtureinstance.html#extend" class="tsd-kind-icon">extend</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="api_fixture.fixtureinstance.html#initialized" class="tsd-kind-icon">initialized</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="api_fixture.fixtureinstance.html#remove" class="tsd-kind-icon">remove</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="api_fixture.fixtureinstance.html#removed" class="tsd-kind-icon">removed</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="api_fixture.fixtureinstance.html#terminated" class="tsd-kind-icon">terminated</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="api_fixture.fixtureinstance.html#updatebasetoinstance" class="tsd-kind-icon">update<wbr>Base<wbr>ToInstance</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Fixture<wbr>Instance<span class="tsd-signature-symbol">(</span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, iApi<span class="tsd-signature-symbol">: </span><a href="api_instance.instanceapi.html" class="tsd-signature-type" data-tsd-kind="Class">InstanceAPI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="api_fixture.fixtureinstance.html" class="tsd-signature-type" data-tsd-kind="Class">FixtureInstance</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides <a href="api_common.apiscope.html">APIScope</a>.<a href="api_common.apiscope.html#constructor">constructor</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/ramp4-pcar4/ramp4-pcar4/blob/6adb239/packages/ramp-core/src/api/fixture.ts#L197">api/fixture.ts:197</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates an instance of FixtureInstance.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>FixtureInstance</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>id: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>iApi: <a href="api_instance.instanceapi.html" class="tsd-signature-type" data-tsd-kind="Class">InstanceAPI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="api_fixture.fixtureinstance.html" class="tsd-signature-type" data-tsd-kind="Class">FixtureInstance</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="_iapi" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> $i<wbr>Api</h3>
+					<div class="tsd-signature tsd-kind-icon">$i<wbr>Api<span class="tsd-signature-symbol">:</span> <a href="api_instance.instanceapi.html" class="tsd-signature-type" data-tsd-kind="Class">InstanceAPI</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="api_common.apiscope.html">APIScope</a>.<a href="api_common.apiscope.html#_iapi">$iApi</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/ramp4-pcar4/ramp4-pcar4/blob/6adb239/packages/ramp-core/src/api/common.ts#L17">api/common.ts:17</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The instance of RampMap API scoped to a single Vue R4MP application.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>memberof</dt>
+							<dd><p>APIScope</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="id" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> id</h3>
+					<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html">FixtureBase</a>.<a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html#id">id</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/ramp4-pcar4/ramp4-pcar4/blob/6adb239/packages/ramp-core/src/api/fixture.ts#L197">api/fixture.ts:197</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>ID of this fixture.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>memberof</dt>
+							<dd><p>FixtureInstance</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+					<a name="_vapp" class="tsd-anchor"></a>
+					<h3>$v<wbr>App</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> $vApp<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Vue</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ramp4-pcar4/ramp4-pcar4/blob/6adb239/packages/ramp-core/src/api/common.ts#L27">api/common.ts:27</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>The instance of Vue R4MP application controlled by this InstanceAPI.
+									This is just a shorthand for <code>this.$iApi.$vApp</code>.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>readonly</dt>
+									<dd></dd>
+									<dt>memberof</dt>
+									<dd><p>APIScope</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Vue</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="config" class="tsd-anchor"></a>
+					<h3>config</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> config<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ramp4-pcar4/ramp4-pcar4/blob/6adb239/packages/ramp-core/src/api/fixture.ts#L260">api/fixture.ts:260</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the fixture config section (JSON) taken from the global config.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>readonly</dt>
+									<dd></dd>
+									<dt>memberof</dt>
+									<dd><p>FixtureInstance</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="added" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> added</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">added<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html">FixtureBase</a>.<a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html#added">added</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/ramp4-pcar4/ramp4-pcar4/blob/6adb239/packages/ramp-core/src/api/fixture.ts#L248">api/fixture.ts:248</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>[Optional] Called synchronously when the fixture is added to R4MP.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="extend" class="tsd-anchor"></a>
+					<h3>extend</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">extend<span class="tsd-signature-symbol">(</span>vueConstructor<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">VueConstructor</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Vue</span><span class="tsd-signature-symbol">&gt;</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">ComponentOptions</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Vue</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">DefaultData</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Vue</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">DefaultMethods</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Vue</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">DefaultComputed</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">PropsDefinition</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>, mount<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Vue</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ramp4-pcar4/ramp4-pcar4/blob/6adb239/packages/ramp-core/src/api/fixture.ts#L233">api/fixture.ts:233</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>A helper function to create a &quot;subclass&quot; of the base Vue constructor</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>FixtureInstance</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>vueConstructor: <span class="tsd-signature-type">VueConstructor</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Vue</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+								<li>
+									<h5>options: <span class="tsd-signature-type">ComponentOptions</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Vue</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">DefaultData</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Vue</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">DefaultMethods</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Vue</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">DefaultComputed</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">PropsDefinition</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = ...</span></h5>
+								</li>
+								<li>
+									<h5>mount: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = true</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Vue</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="initialized" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> initialized</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">initialized<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html">FixtureBase</a>.<a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html#initialized">initialized</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/ramp4-pcar4/ramp4-pcar4/blob/6adb239/packages/ramp-core/src/api/fixture.ts#L250">api/fixture.ts:250</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>[Optional] Called after the core map logic has executed. If the fixture is added after the map initialization, this is called immediately.</p>
+								</div>
+								<p>At this point, any custom content (panels, on-map components, etc.) can be added to R4MP. Custom content can also be added throughout the life of the [module].</p>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="remove" class="tsd-anchor"></a>
+					<h3>remove</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">remove<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="api_fixture.fixtureinstance.html" class="tsd-signature-type" data-tsd-kind="Class">FixtureInstance</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ramp4-pcar4/ramp4-pcar4/blob/6adb239/packages/ramp-core/src/api/fixture.ts#L219">api/fixture.ts:219</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Removes the specified fixture from R4MP instance.
+									This is a proxy to <code>RAMP.fixture.remove(...)</code>.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>FixtureInstance</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="api_fixture.fixtureinstance.html" class="tsd-signature-type" data-tsd-kind="Class">FixtureInstance</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="removed" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> removed</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">removed<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html">FixtureBase</a>.<a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html#removed">removed</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/ramp4-pcar4/ramp4-pcar4/blob/6adb239/packages/ramp-core/src/api/fixture.ts#L249">api/fixture.ts:249</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>[Optional] Called synchronously when the fixture is removed from R4MP.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="terminated" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> terminated</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">terminated<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html">FixtureBase</a>.<a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html#terminated">terminated</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/ramp4-pcar4/ramp4-pcar4/blob/6adb239/packages/ramp-core/src/api/fixture.ts#L251">api/fixture.ts:251</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>[Optional] Called before the fixture is removed from R4MP.</p>
+								</div>
+								<p>This is a clean-up phase, and at this point, any custom content (panels, on-map components, etc.) must be removed.</p>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="updatebasetoinstance" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> update<wbr>Base<wbr>ToInstance</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">update<wbr>Base<wbr>ToInstance<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html" class="tsd-signature-type" data-tsd-kind="Interface">FixtureBase</a>, id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, $iApi<span class="tsd-signature-symbol">: </span><a href="api_instance.instanceapi.html" class="tsd-signature-type" data-tsd-kind="Class">InstanceAPI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="api_fixture.fixtureinstance.html" class="tsd-signature-type" data-tsd-kind="Class">FixtureInstance</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ramp4-pcar4/ramp4-pcar4/blob/6adb239/packages/ramp-core/src/api/fixture.ts#L168">api/fixture.ts:168</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Adds missing functions and properties to the object implementing FixtureBase interface.
+									This is only needed for external fixtures as they can&#39;t inherit from FixtureInstance.</p>
+								</div>
+								<p>TODO: If you know a better way to deep-mixin props/getters/functions from a class into another class instance, please tell me. I honestly don&#39;t know 🤷‍♂️.</p>
+								<dl class="tsd-comment-tags">
+									<dt>static</dt>
+									<dd></dd>
+									<dt>memberof</dt>
+									<dd><p>FixtureInstance</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <a href="../interfaces/store_modules_fixture_fixture_state.fixturebase.html" class="tsd-signature-type" data-tsd-kind="Interface">FixtureBase</a></h5>
+								</li>
+								<li>
+									<h5>id: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>$iApi: <a href="api_instance.instanceapi.html" class="tsd-signature-type" data-tsd-kind="Class">InstanceAPI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="api_fixture.fixtureinstance.html" class="tsd-signature-type" data-tsd-kind="Class">FixtureInstance</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="../modules/api_fixture.html">api/fixture</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-class tsd-parent-kind-module">
+						<a href="api_fixture.fixtureapi.html" class="tsd-kind-icon">FixtureAPI</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-module">
+						<a href="api_fixture.fixtureinstance.html" class="tsd-kind-icon">Fixture<wbr>Instance</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+								<a href="api_fixture.fixtureinstance.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="api_fixture.fixtureinstance.html#_iapi" class="tsd-kind-icon">$i<wbr>Api</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="api_fixture.fixtureinstance.html#id" class="tsd-kind-icon">id</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="api_fixture.fixtureinstance.html#_vapp" class="tsd-kind-icon">$v<wbr>App</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="api_fixture.fixtureinstance.html#config" class="tsd-kind-icon">config</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="api_fixture.fixtureinstance.html#added" class="tsd-kind-icon">added</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="api_fixture.fixtureinstance.html#extend" class="tsd-kind-icon">extend</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="api_fixture.fixtureinstance.html#initialized" class="tsd-kind-icon">initialized</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="api_fixture.fixtureinstance.html#remove" class="tsd-kind-icon">remove</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="api_fixture.fixtureinstance.html#removed" class="tsd-kind-icon">removed</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="api_fixture.fixtureinstance.html#terminated" class="tsd-kind-icon">terminated</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="api_fixture.fixtureinstance.html#updatebasetoinstance" class="tsd-kind-icon">update<wbr>Base<wbr>ToInstance</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
